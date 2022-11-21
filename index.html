@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <!--Logo escalado-->
     <link rel="apple-touch-icon" sizes="57x57" href="Imagenes/Favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="Imagenes/Favicon/apple-icon-60x60.png">
@@ -47,45 +47,78 @@
 
     <!--Inicio codificación de la página-->
     <title>Helping Hand</title>
-</head>
 
-<body>
+  </head>
+
+  <body>
+    <!--Barra de navegación e Banner principal-->
     <header>
-        <!--Barra de navegación e Banner principal-->
-        <!--Barra de navegación-->
-        <nav class="navbar navbar-expand-lg bg-helpingHand sticky-top">
-          <div class="container navbar-color">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand"><img src="Imagenes/Logo.png" class="img-navbar"></a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#Funcionalidades">Funcionalidades</a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#Planes">Planes</a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#Contactanos">Contactanos</a>
-                </li>
-                <li class="nav-item px-3">
-                    <button type="button" href="#Descarga" class="btn btn-primary">Descargar</button>
-                </li>
-              </ul>
-            </div>
+      <!--Barra de navegación-->
+      <nav class="navbar navbar-expand-lg bg-helpingHand sticky-top">
+        <div class="container navbar-color">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand"><img src="Imagenes/Logo.png" class="img-navbar"></a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#Funcionalidades">Funcionalidades</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#Planes">Planes</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#Contactanos">Contactanos</a>
+              </li>
+              <li class="nav-item px-3">
+                  <button type="button" href="#Descarga" class="btn btn-primary">Descargar</button>
+              </li>
+            </ul>
           </div>
-        </nav>
-        
-    </header>    
+        </div>
+      </nav>
+      
+      <!--Banner Principal-->
+      
+      <!--Imágenes del banner-->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagenes/Slide1.jpg" class="img-carrousel d-block w-100" alt="Slide1">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/Slide2.jpg" class="img-carrousel d-block w-100" alt="Slide2">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/Slide3.jpg" class="img-carrousel d-block w-100" alt="Slide3">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/Slide4.jpg" class="img-carrousel d-block w-100" alt="Slide4">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/Slide5.jpg" class="img-carrousel d-block w-100" alt="Slide5">
+          </div>
+        </div>
 
-<main>
+        <!--Texto del banner 
+        <div class="position-absolute top-50 start-15 translate-middle-y text-banner-color">
+          <div class="p-1"><span class="fs-2 fw-bold">Más de 180 campañas de donación<br>en lo que va 2022 <br></span></div>
+          <div class="p-1"><span class="fs-4 fw-semibold">En solo 6 meses se han realizando gran<br>cantidad de campañas exitosas para apoyar<br>distintas causas</span></div>
+          <div class="p-1"><a class="fs-6 fw-semibold text-banner-color" href="#ConoceMas"><br>Conoce más aquí</a></div>
+        </div>
+        -->
+      </div>
 
-</main>
+    </header>
 
-<footer>
-
-</footer>
-</body>
+    
+  </body>
 </html>
