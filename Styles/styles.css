@@ -1,0 +1,148 @@
+body{
+    background-color: #26789E;
+}
+
+.navbar{
+    color: #ffffff;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.bg-helpingHand{
+    background-color: #26789E;
+}
+
+.img-navbar{
+    border-radius: 5px;
+    height: 40px;
+}
+
+.text-banner-color{
+    color: black;
+}
+
+.start-15{
+    left: 40px;
+}
+
+h4{
+    color: #26789E;
+}
+
+.planes{
+    background-color: #26789E;
+}
+
+.plan{
+    color: #63CAA7;
+}
+
+ul{
+    color: #000000;
+}
+
+.header-section{
+    color: #ffffff;
+}
+
+.tittle-plan{
+    color: #26789E;
+}
+
+.justify{
+    color: #ffffff;
+}
+
+.color-descuento{
+    color: #FF6767;
+    font-size: small;
+}
+.color-HH{
+    color: #26789E;
+}
+
+.color-HH1{
+    color: #63CAA7;
+}
+
+.prueba{
+    background-color: #000000;
+}
+
+.prueba2{
+    background-color: #FF6767;
+}
+
+.ConoceMas{
+    background-color: #26789E;
+    color: white;
+}
+
+.color-HH-alternative{
+    color: #39F563;
+}
+
+.title-ConoceMas{
+    padding: 25px;
+}
+
+.video-box {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 5px auto 0;
+    padding-bottom: 60px;
+}
+.video {
+    position: relative;
+    height: 0;
+    padding-top: 56.25%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+.video video {
+    width: 100%;
+    height: auto;
+}
+  
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+textarea{
+    border-color: #000000;
+    border-radius: 15px;
+}
+
+footer{
+    background-color: #26789E;
+}
+
+.ul-footer{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.footer-right{
+    color: white;
+}
+
+.socialMedia a{
+    color: white;
+    text-decoration: none; 
+}
+
+ion-icon {
+    font-size: 35px;
+    padding: 10px;
+}
